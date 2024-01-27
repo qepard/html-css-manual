@@ -1,5 +1,6 @@
 # Project information
-site_name: Руководство по HTML и CSS
+site_name: Руководство по HTML
+# site_name: Руководство по HTML и CSS
 site_description: Учебник по разработке сайтов на языках разметки HTML и CSS
 site_author: qepard
 site_url: https://qepard.github.io/html-css-manual
