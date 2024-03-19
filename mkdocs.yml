@@ -25,6 +25,11 @@ theme:
   name: material
   language: ru
   palette:
+    - media: "(prefers-color-scheme)"
+      primary: teal
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default 
       primary: teal
@@ -37,11 +42,6 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
-    - media: "(prefers-color-scheme)"
-      primary: teal
-      toggle:
-        icon: material/brightness-auto
-        name: Switch to light mode
   font:
     text: Roboto
     code: Roboto Mono
